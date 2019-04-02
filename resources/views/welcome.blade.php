@@ -44,14 +44,12 @@
             
           </div><br>
         
-
-    
-    
-    
-   
 </div>    
 <div>
   
+</div>    
+<div>
+    @include('include.comment')   
 </div>    
 
 <style>
