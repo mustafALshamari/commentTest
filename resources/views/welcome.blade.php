@@ -30,21 +30,7 @@
 
 <div> <h5 class="card-header">Comments</h5><div><br></div>
   
-@foreach($comments as $comment)
-<div class="card">
-        
-        <div class="card-header1">
-        <strong>{{ucfirst($comment->username)}}</strong>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>{{$comment->text}}</p>
-            <footer class="blockquote-footer">Comment at {{$comment->created_at}}</cite></footer>
-          </blockquote>
-        </div>
-        
-      </div><br>
-      @endforeach
+
         
 </div>    
 <div>
