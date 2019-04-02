@@ -13,6 +13,4 @@
 
 
 
-Route::get('/', array('as' => 'welcome', 'uses' => 'CommentController@index'));
-
-Route::post('/addComment', array('as' => 'welcome', 'uses' => 'CommentController@addComment'));
+Route::get('/','CommentController@index')->name('welcome');
