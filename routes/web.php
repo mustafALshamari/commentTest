@@ -11,11 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 
+Route::get('/', array('as' => 'welcome', 'uses' => 'CommentController@index'));
 
-
-
+Route::post('/addComment', array('as' => 'welcome', 'uses' => 'CommentController@addComment'));
