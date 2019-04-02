@@ -10,6 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
 Route::get('/','CommentController@list')->name('welcome');
 Route::get('/commentList','CommentController@list');
 Route::post('/addComment', 'CommentController@addComment');
