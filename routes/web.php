@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/','CommentController@list')->name('welcome');
 Route::get('/commentList','CommentController@list');
 Route::post('/addComment', 'CommentController@addComment');
