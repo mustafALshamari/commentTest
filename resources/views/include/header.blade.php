@@ -28,7 +28,7 @@
         </div>
       </nav>
     <div>
-            <img src="/imgs/header2.png" width="100%">
+            <img src="https://s3.amazonaws.com/cdn.innovativelanguage.com/sns/em/2017/Landing+Pages/Romance+x33/Banner/romanceHeader_english.png" width="100%">
     </div>
     </header>
     
