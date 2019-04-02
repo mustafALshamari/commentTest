@@ -32,3 +32,12 @@
     </div>
     </header>
     
+<style>
+    .bg-primary {
+        background-color: #c60428!important;
+        height: 100px
+    }
+    
+    </style>
+    
+    
