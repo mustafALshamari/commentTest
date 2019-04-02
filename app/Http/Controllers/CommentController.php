@@ -8,7 +8,7 @@ class CommentController extends Controller
 {
 
 
-    public function list(){
+    public function index(){
        /* $commenti = Comment::OrderBy('id','DESC')->get();
 
 
