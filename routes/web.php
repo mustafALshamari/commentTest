@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
+Auth::routes();
+
+Route::get('/', 'CommentController@index')->name('welcome');
+Route::post('/addComment', 'CommentController@addComment');

@@ -8,13 +8,7 @@ class CommentController extends Controller
 
 
     public function index(){
-       /* $commenti = Comment::OrderBy('id','DESC')->get();
-
-
-        return response()->json(
-            $commenti->toArray()
-            );*/
-
+     
             return view('welcome')->with('comments',Comment::all());
     }
     
